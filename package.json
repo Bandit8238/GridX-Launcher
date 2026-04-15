@@ -1,1 +1,13 @@
-
+{
+  "name": "nebula-launcher",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . NebulaLauncher"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-packager": "^17.1.0"
+  }
+}
