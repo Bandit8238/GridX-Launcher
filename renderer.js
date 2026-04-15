@@ -1,1 +1,1 @@
-
+import "./src/core/app.js";
